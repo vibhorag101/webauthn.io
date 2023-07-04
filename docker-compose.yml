@@ -53,9 +53,9 @@ services:
       - redis_network
     environment:
       - PYTHONUNBUFFERED=0
-      - DJANGO_SECRET_KEY
-      - POSTGRES_USER
-      - POSTGRES_PASSWORD
+      - DJANGO_SECRET_KEY=)5uec%f!pe1m-=e$ibn95sa*d%iq*aa(k^ad_1yo^cd+mely#q
+      - POSTGRES_USER=vibhor
+      - POSTGRES_PASSWORD=vibhor@123
       - PROD_HOST_NAME
       - RP_ID
       - RP_NAME
